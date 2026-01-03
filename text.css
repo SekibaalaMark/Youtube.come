@@ -1,0 +1,42 @@
+.video-title {
+        font-family: Arial;
+        font-size: 20px;
+        font-weight: bold;
+        width: 400px;
+        line-height: 24px;
+        margin-bottom: 5px;
+    }
+
+    .vid-info{
+        font-family: Arial;
+        font-weight: normal;
+        color: rgb(96,96,96); 
+        font-size: 14px;
+        margin-top: 0;
+    }
+
+    .Brownlee {
+        font-family: Arial;
+        font-weight: normal;
+        font-size: 14px;
+        color: rgb(96,96,96);     /* lighter color */
+            }
+    
+    .vid-description{
+        margin-bottom: 40px;
+        font-family: Arial;
+        font-weight: normal;
+        color: #606060; 
+        font-size: small;
+    }
+
+    .shop_now{
+        text-align: center;
+        background-color: red;
+        padding-bottom: 18px;
+        padding-top: 18px;
+        color: white;
+        font-family: Arial;
+        font-weight: normal;
+        font-size: small;
+    }
