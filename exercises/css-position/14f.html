@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>14f</title>
+        <style>
+            p{
+                font-family: Arial;
+                font-size: 9px;
+                margin-bottom: 3px;
+            }
+
+            .sidebar-1{
+                position: fixed;
+                background-color: rgb(28, 28, 28);
+                left: 0;
+                top: 0;
+                bottom: 0;
+                width: 50px;
+                
+                display: flex;
+                flex-direction: column;
+            }
+
+            .photo{
+                width: 40px;
+                border-radius: 20px;
+                margin-left: 5px;
+                margin-right: 5px;
+            }
+
+            .sidebar-2{
+                position: fixed;
+                background-color: rgb(65, 65, 65);
+                top: 0;
+                bottom: 0;
+                width: 150px;
+                margin-left: 41px;
+
+                display: flex;
+                flex-direction: column;
+                padding-left: 6px;
+            }
+
+            .flex-3{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                
+                padding-right: 6px;
+                align-content: center;
+            }
+
+            .info{
+                color: white;
+                font-size: 9px;
+            }
+
+            .plus{
+                font-size: 9px;
+                color: rgb(158, 158, 158);
+            }
+
+
+
+
+
+
+        </style>
+    </head>
+
+    <body>
+        <div class="sidebar-1">
+            <div>
+                <img class="photo" src="cat-1.jpg">
+            </div>
+            <div>
+                <img class="photo" src="cat-2.jpg">
+            </div>
+            <div>
+                <img class="photo" src="cat-1.jpg">
+            </div>
+        </div>
+
+        <div class="sidebar-2">
+            <div class="flex-3">
+                <p class="info">INFO</p>
+                <p class="plus">+</p>
+            </div>
+            <div>
+                <p># new-videos</p>
+            </div>
+            <div>
+                <p># updates</p>
+            </div>
+            <div>
+                <p># faq</p>
+            </div>
+
+        </div>
+
+    </body>
+</html>
