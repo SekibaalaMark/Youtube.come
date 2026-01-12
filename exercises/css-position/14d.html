@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>14d</title>
+        <style>
+            .overlay{
+                display: flex;
+                position: fixed;
+                background-color: rgba(0,0,0,0.8);
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                align-items: center;
+            }
+            div{
+                margin: 0;
+            }
+            p{
+                margin: 0;
+                font-family: Arial;
+            }
+
+            .modal{
+                display: flex;
+                flex-direction: column;
+                background-color: white;
+                width: 200px;
+                height: 65px;
+                margin-left: 200px;
+                padding-left: 8px;
+                padding-top: 8px;
+            }
+
+            .title{
+                font-weight: bold;
+            }
+
+            .normal{
+                font-size: 10px;
+                font-weight: 700;
+                margin-bottom: 4px;
+            }
+
+            .button{
+                font-size: 8px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="overlay">
+            <div class="modal">
+                <div>
+                    <p class="title">Model Title</p>
+                </div>
+                <div>
+                    <p class="normal">This is a modal</p>
+                </div>
+                <div>
+                    <button class="button">close</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
